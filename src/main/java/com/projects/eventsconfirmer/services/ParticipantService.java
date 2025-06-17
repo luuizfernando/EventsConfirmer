@@ -17,6 +17,5 @@ public class ParticipantService {
 	public Participant findById(Long id) {
 		Optional<Participant> obj = repository.findById(id);
 		return obj.get();
-		
 	}
 }
